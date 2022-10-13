@@ -1,0 +1,33 @@
+@font-face{
+    font-family: "Metal";
+    src: local("Metal"),url(/assets/fonts/metal_lord/metal.ttf) format("truetype");
+}
+
+h1{
+    font-family: "Metal";
+    font-size: 50px;
+}
+h2{
+    font-family: "Metal";
+    color: rgb(133, 3, 3);
+    font-size: 35px;
+}
+h3{
+    font-family: "Metal";
+    font-size:26px;
+    
+    
+}
+div{
+    
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 420px;
+    
+}
+.container{
+    padding-left: 15px;
+    
+    border-style:solid;
+    
+}

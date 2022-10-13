@@ -1,0 +1,14 @@
+<div class="container" >
+    <h1>Metal City Card</h1>
+    <h2>***Weekend Pass***</h2>
+    <h3>Age:{{age}}</h3>
+    <button type="button"class="btn btn btn-outline-danger" (click)="incrementarEdad()">Up</button>
+    <button type="button"class="btn btn btn-outline-danger" (click)="reducirEdad()">Down</button>
+
+    <div  *ngIf="age>=18; else underAge">
+        <app-over-card></app-over-card>
+        </div>
+        <ng-template #underAge>
+        <app-under-card></app-under-card>
+    </ng-template>
+</div>

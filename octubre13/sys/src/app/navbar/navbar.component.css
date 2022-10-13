@@ -1,0 +1,20 @@
+
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #c50104;
+    font-family: "Metal";
+    font-size: 40px;
+}
+
+.navbar-brand:hover {
+    color: #948989;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #ffce00;
+}
+
